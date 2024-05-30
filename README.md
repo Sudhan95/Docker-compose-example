@@ -25,6 +25,7 @@ Setup:
    Verify success:
 
       docker-compose version
+   
 **Explaination**
 
 Dockerfile:
