@@ -1,8 +1,13 @@
 **Set up a multi-container Docker application with Flask as the web service and MySQL as the database service**
 
-
 Create the following directory structure:
-myapp/
+docker_compose_ex/
+   - app/
+      - Dockerfile
+      - app.py
+      - requirements.txt
+   - docker-compose.yml
+  
 │
 ├── app/
 │   ├── Dockerfile
@@ -10,6 +15,7 @@ myapp/
 │   └── requirements.txt
 │
 └── docker-compose.yml
+
 
 
 
