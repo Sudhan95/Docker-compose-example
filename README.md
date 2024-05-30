@@ -29,23 +29,23 @@ Setup:
 
 Dockerfile:
 
-Uses the official Python image.
-Sets the working directory to /app.
-Copies the application files into the container.
-Installs the required Python packages.
-Exposes port 5000.
-Specifies the command to run the Flask application.
-docker-compose.yml:
+. Uses the official Python image.
+. Sets the working directory to /app.
+. Copies the application files into the container.
+. Installs the required Python packages.
+. Exposes port 5000.
+. Specifies the command to run the Flask application.
 
-web service:
-Builds the Flask application from the app directory.
-Sets the environment variables for the database connection.
-Depends on the mysql service to ensure the database starts first.
-mysql service:
-Uses the official MySQL image.
-Sets the root password and database name.
-Maps a volume to persist database data.
-This setup provides a fully containerized Flask application with a MySQL database, making it easy to manage and deploy.
+docker-compose.yml:
+   web service:
+   . Builds the Flask application from the app directory.
+   . Sets the environment variables for the database connection.
+   . Depends on the mysql service to ensure the database starts first.
+   mysql service:
+   . Uses the official MySQL image.
+   . Sets the root password and database name.
+   . Maps a volume to persist database data.
+   . This setup provides a fully containerized Flask application with a MySQL database, making it easy to manage and deploy.
 
 
 
