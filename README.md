@@ -12,12 +12,4 @@ myapp/
 └── docker-compose.yml
 
 
-Create the following directory structure:
-myapp/
-│
-├── app/
-│   ├── Dockerfile
-│   ├── app.py
-│   └── requirements.txt
-│
-└── docker-compose.yml
+
